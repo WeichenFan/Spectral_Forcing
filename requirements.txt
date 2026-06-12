@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.22
+opencv-python==4.11.0.86
+timm==0.9.12
+wandb
+scipy==1.9.1
+einops==0.8.1
+gdown==5.2.0
+git+https://github.com/LTH14/torch-fidelity.git@master

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local tool config (may contain machine-specific paths)
+.claude/
+.codex
+
+# Local scripts (not part of the public repo)
+update_hf.py
+
+# Experiment tracking / logs / outputs
+wandb/
+*.log
+logs/
+output/
+runs/
+results/
+
+# Data & checkpoints
+data/
+dataset/
+datasets/
+downloads/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
