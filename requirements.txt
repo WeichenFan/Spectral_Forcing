@@ -1,3 +1,7 @@
+# PyTorch is installed from the cu124 wheel index below, which needs an NVIDIA
+# driver supporting CUDA >= 12.4. For a different driver, change cu124 to your
+# CUDA version (e.g. cu121, cu126) on the line below. Do NOT use cu130/nightly
+# wheels on an older driver -- kernels will fail to launch at runtime.
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.5.1
 torchvision==0.20.1
