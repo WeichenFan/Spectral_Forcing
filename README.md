@@ -126,5 +126,14 @@ Built on the JiT codebase by Tianhong Li and Kaiming He. FID/IS use a customized
 
 ## BibTex
 ```bibtex
-TBD
+@misc{fan2026show,
+  title         = {{Show the Signal, Hide the Noise: Spectral Forcing for Pixel-Space Diffusion}},
+  author        = {Fan, Weichen and Diao, Haiwen and Wu, Penghao and Liu, Ziwei},
+  year          = {2026},
+  eprint        = {2606.15236},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2606.15236},
+  url           = {https://arxiv.org/abs/2606.15236}
+}
 ```
