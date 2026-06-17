@@ -19,9 +19,9 @@
 
 </p>
 
-<!-- <div align="center">
-                      <a href="https://arxiv.org/abs/2512.19693">Paper</a> | <a href="https://huggingface.co/weepiess2383/UAE">Weights</a> 
-</div> -->
+<div align="center">
+                      <a href="https://arxiv.org/pdf/2606.15236">Paper</a> | <a href="https://huggingface.co/weepiess2383/Spectral_Forcing">Weights</a> 
+</div>
 
 ---
 
