@@ -121,9 +121,7 @@ the FID statistics yourself.
 
 ## Acknowledgements
 
-Built on the JiT codebase by Tianhong Li and Kaiming He. FID/IS use a customized
-[torch-fidelity](https://github.com/LTH14/torch-fidelity).
-
+Built on the [JiT](https://github.com/LTH14/JiT) codebase.
 ## BibTex
 ```bibtex
 @misc{fan2026show,
