@@ -47,6 +47,14 @@ adapter costing ~0.5% extra compute (one forward + inverse DCT per step).
 </p>
 <p align="center"><em>Left: the per-band data-to-noise ratio splits the (frequency, time) plane — a denoiser only does useful data-distribution work below the moving bandwidth front, while capacity above it is spent on a noise-dominated, closed-form solution. Right: Spectral Forcing applies a time-conditional 2D-DCT low-pass (DCT → mask → IDCT) to the network's input whose cutoff tracks that front, so only the signal-bearing low frequencies pass early and the full spectrum passes at the data endpoint.</em></p>
 
+
+<p align="center">
+  <img src="demo/sensenova_u1.png" width="100%">
+</p>
+<p align="center"><em>Spectral Forcing transfers to native vision-language models: DPG-Bench overall and per-category.</em></p>
+
+Spectral-Forcing applied to [SenseNovaU1](https://github.com/OpenSenseNova/SenseNova-U1) trained from scratch for 100k iters.
+
 ## Installation
 
 ```bash
